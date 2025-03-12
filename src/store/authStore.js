@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import {create} from 'zustand'
 
-const API_URL = 'http://localhost:3000/api/auth';
+const API_URL = 'https://passwordresetloggin.netlify.app/api/auth';
 export const useAuthStore = create((set) =>({
     user:null,
     isLoading:false,
